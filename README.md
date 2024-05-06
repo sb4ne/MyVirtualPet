@@ -6,3 +6,4 @@ The user interface was designed to draw the attraction of the user with the use 
 
 The “welcome” screen displays 3 different animals, fictional and real. The user is given the option of one of the 3 by way of buttons. The 3 buttons direct the user to the second screen
 
+https://youtu.be/UYBNcCd6tzY
