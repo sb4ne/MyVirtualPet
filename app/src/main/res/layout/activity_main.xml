@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#00B8D4"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/welcomeMessage"
+        android:layout_width="387dp"
+        android:layout_height="90dp"
+        android:fontFamily="sans-serif-smallcaps"
+        android:text="Welcome To My Virtual Pet!"
+        android:textAlignment="center"
+        android:textAllCaps="true"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+        tools:layout_editor_absoluteX="12dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+    <ImageView
+        android:id="@+id/imageViewDog"
+        android:layout_width="149dp"
+        android:layout_height="144dp"
+        app:srcCompat="@drawable/happy_dog_015"
+        tools:layout_editor_absoluteX="31dp"
+        tools:layout_editor_absoluteY="163dp" />
+
+    <ImageView
+        android:id="@+id/imageViewCat"
+        android:layout_width="152dp"
+        android:layout_height="144dp"
+        app:srcCompat="@drawable/favpng_cat_kitten_cartoon_drawing"
+        tools:layout_editor_absoluteX="212dp"
+        tools:layout_editor_absoluteY="163dp" />
+
+    <ImageView
+        android:id="@+id/imageViewGriffin"
+        android:layout_width="162dp"
+        android:layout_height="169dp"
+        app:srcCompat="@drawable/baby_griffon_by_n_suprem_d4f251t"
+        tools:layout_editor_absoluteX="124dp"
+        tools:layout_editor_absoluteY="428dp" />
+
+    <Button
+        android:id="@+id/dogButton"
+        android:layout_width="171dp"
+        android:layout_height="67dp"
+        android:layout_marginBottom="28dp"
+        android:text="Select Pet Dog"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toTopOf="@+id/imageViewGriffin"
+        tools:layout_editor_absoluteX="16dp" />
+
+    <Button
+        android:id="@+id/griffinButton"
+        android:layout_width="157dp"
+        android:layout_height="61dp"
+        android:text="Select Pet Griffin"
+        android:textAlignment="center"
+        android:textSize="16sp"
+        tools:layout_editor_absoluteX="124dp"
+        tools:layout_editor_absoluteY="627dp" />
+
+    <Button
+        android:id="@+id/catbutton"
+        android:layout_width="169dp"
+        android:layout_height="66dp"
+        android:layout_marginTop="27dp"
+        android:text="Select Pet Cat"
+        android:textSize="16sp"
+        app:layout_constraintTop_toBottomOf="@+id/imageViewCat"
+        tools:layout_editor_absoluteX="212dp" />
+</androidx.constraintlayout.widget.ConstraintLayout>
